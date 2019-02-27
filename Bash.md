@@ -30,7 +30,8 @@
   ## Programmation bash
   ## Exercice 2: Contrôle de mot de passe.
   
-  ```\#! /bin/bash
+  ```
+     #! /bin/bash
      PASSWORD = 'toto'
      read -p 'Entrez votre mot de passe: " -s a
      if [ $PASSWORD = $a ]; then
