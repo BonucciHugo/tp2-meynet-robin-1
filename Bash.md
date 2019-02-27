@@ -32,7 +32,12 @@
   
   ```#! /bin/bash
      PASSWORD = 'toto'
-  
+     read -p 'Entrez votre mot de passe: " -s a
+     if [ $PASSWORD = $a ]; then
+          echo "Bienvenue $USER"
+     else
+          echo 'mauvais mdp'
+     fi
   ```
   
   
